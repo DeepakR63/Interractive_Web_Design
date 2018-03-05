@@ -1,0 +1,220 @@
+<html>
+    <head>
+        <title>WebHook Settings</title>
+        <link rel="stylesheet" href="../css/style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+            
+        <div class="container-fluid" id="div-webhook">
+            <center><h1>WebHook Settings</h1></center><br>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="row form-group">
+                        <div class="col-sm-6">
+                           <label id="lbl-form"> NANE</label>
+                        </div>
+                    </div>
+                    <div class="row form-group">
+                        <div class="col-sm-12">
+                                <div class="md-input">
+                                    <input class="md-form-control" required="" type="text" placeholder="fflve">
+                                    <span class="highlight"></span>
+                                    <span class="bar"></span>
+                                </div>
+		            
+                        </div>
+                    </div>
+                    <div class="row form-group">
+                        <div class="col-sm-6">
+                            <label id="lbl-form"> APP KEY (OPTIONAL)</label>
+                        </div>
+                    </div>
+                    <div class="row form-group">
+                        <div class="col-sm-12">
+                                <div class="md-input">
+                                    <input class="md-form-control" required="" type="text">
+                                    <span class="highlight"></span>
+                                    <span class="bar"></span>
+                                </div>
+		            
+                        </div>
+                    </div>
+                    <div class="row form-group">
+                            <div class="col-sm-6">
+                                <label id="lbl-form"> APPMP | TOKEN (OPTIONAL)</label>
+                            </div>
+                    </div>
+                    <div class="row form-group">
+                        <div class="col-sm-12">
+                            
+                                <div class="md-input">
+                                    <input class="md-form-control" required="" type="text">
+                                    <span class="highlight"></span>
+                                    <span class="bar"></span>
+                                </div>
+		           
+                        </div>
+                    </div>
+                    <div class="row form-group">
+                            <div class="col-sm-6">
+                                <label id="lbl-form"> URL</label>
+                            </div>
+                    </div>
+                    <div class="row form-group">
+                        <div class="col-sm-12">
+                                <div class="md-input">
+                                    <input class="md-form-control" required="" type="text" placeholder="http">
+                                    <span class="highlight"></span>
+                                    <span class="bar"></span>
+                                </div>
+		           
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6" id="div-right">
+                        <div class="row form-group">
+                                <div class="col-sm-6">
+                                    <label id="lbl-form"> X-WEBCONNEX-DELIVERY</label>
+                                </div>
+                        </div>
+                        <div class="row form-group"> 
+                                <div class="col-sm-6">
+                        
+                                   <label> agdhasgd12313hjxghgshg</label>
+                                </div>
+                            </div>
+                            <div class="row form-group">
+                                    <div class="col-sm-6">
+                                        <label id="lbl-form"> STATUS</label>
+                                    </div>
+                            </div>
+                            <div class="row form-group">
+                                <div class="col-sm-6">
+                                        <label class="switch">
+                                                <input type="checkbox"/>
+                                                <div class="slider round"><span class="on">ON</span><span class="off">OFF</span></div>
+                                        </label>
+                                </div>
+                            </div>
+                            <div class="row form-group">
+                                    <div class="col-sm-6">
+                                        <label> EVENTS</label>
+                                    </div>
+                            </div>
+                            <div class="row form-group">
+                                    <div class="col-sm-6">
+                                            <div>
+                                                   <label class="container"><span id="spn-text">New Registration</span>
+													<input type="checkbox">
+													<span class="checkmark"></span>
+												</label>
+                                            </div>
+											<div>
+                                                   <label class="container"><span id="spn-text">Subscription/Deposit Processed</span>
+													<input type="checkbox">
+													<span class="checkmark"></span>
+												</label>
+                                            </div>
+											<div>
+                                                   <label class="container"><span id="spn-text">Form Publish</span>
+													<input type="checkbox">
+													<span class="checkmark"></span>
+												</label>
+                                            </div>
+											<div>
+                                                   <label class="container"><span id="spn-text">Inventory Supply</span>
+													<input type="checkbox" >
+													<span class="checkmark"></span>
+												</label>
+                                            </div>
+											<div>
+                                                   <label class="container"><span id="spn-text">Coupon Creation/Edit</span>
+													<input type="checkbox" >
+													<span class="checkmark"></span>
+												</label>
+                                            </div>
+                                            
+                                    </div>
+                            </div>
+                            <div class="row form-group">
+                                    <div class="col-sm-2">
+                                            <label class="switch">
+                                                    <input type="checkbox"/>
+                                                    <div class="slider round"><span class="on">YES</span><span class="off">NO</span></div>
+                                            </label>
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <label>SEND DATA FROM EVERY COMPAIGN</label>
+                                    </div>
+                                </div>
+                </div>
+            </div>
+            <div class="row">
+                    <div class="col-sm-10">
+                <div class="row">
+                    <div class="col-sm-6">
+                            
+                            <button class="btn dropdown-toggle" type="button" data-toggle="dropdown" id="btn-send-test">SEND A TEST
+                                    <span class="caret"></span></button> </div>
+                                </div>
+                            <div class="row" id="div-bottom">
+                                <div class="col-sm-6">
+                                        <div>
+                                                   <label class="container"><span id="spn-text">Mlro For Mayor</span>
+													<input type="checkbox">
+													<span class="checkmark"></span>
+												</label>
+                                            </div>
+                                </div>
+                                <div class="col-sm-6">
+                                        <div>
+                                                   <label class="container"><span id="spn-text">Online Form</span>
+													<input type="checkbox">
+													<span class="checkmark"></span>
+												</label>
+                                            </div>
+                                </div>
+                            </div>
+                            <div class="row" id="div-bottom">
+                                    <div class="col-sm-6">
+                                            <div>
+                                                   <label class="container"><span id="spn-text">Charity Admin Profile by Sachin</span>
+													<input type="checkbox">
+													<span class="checkmark"></span>
+												</label>
+                                            </div>
+                                    </div>
+                                    <div class="col-sm-6">
+                                           <div>
+                                                   <label class="container"><span id="spn-text">Disaster Relief</span>
+													<input type="checkbox">
+													<span class="checkmark"></span>
+												</label>
+                                            </div>
+                                    </div>
+                                </div>
+                                <br>
+                                <br>
+                   
+                        </div>
+            </div>
+            </div>
+            
+            
+      <div id="div-help" class="verticaltext">
+            Get Help 
+    </div>
+    <div id="div-footer" class="container-fluid">
+            <strong>@ Webconnex 2018</strong>
+          </div>  
+          <img id="img-msg" src="../img/msg.jpeg"/>
+        </body>
+        
+              
+        
+</html>

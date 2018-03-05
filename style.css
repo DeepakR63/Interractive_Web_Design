@@ -1,0 +1,480 @@
+#img-logo
+{
+    width:40%;
+    height:150%;
+    margin-left: 40%;
+    margin-top:-2%;
+}
+#nav-border
+{
+    border-radius: 0px;
+}
+nav
+{
+    border-radius:50%;
+}
+#hd-integration
+{
+    color:rgb(150, 150, 145);
+    
+}
+#mnu-foreverbrave
+{
+    padding-right: 7%;
+}
+#nav-menu
+{
+    background-color:rgb(3, 37, 41);
+    border-radius:50%;
+    color: white;
+}
+#myNavbar ul li a
+{
+    color: white;
+}
+#myNavbar ul li a:hover
+{
+    color: rgb(202, 198, 198);
+}
+
+#btn-add-integration
+{
+    font-weight: bold;
+    color: white;
+    background-color: rgb(8, 214, 111);
+   border-radius: 20px;
+    
+}
+#btn-add-api
+{
+    font-weight: bold;
+    color: white;
+    background-color: rgb(8, 214, 111);
+   border-radius: 20px;
+   height:20px;
+   padding-bottom: 20px;
+   padding-top: 1px;
+    
+}
+#spn-pencil
+{
+    padding-right: 7%;
+}
+#div-tblhead
+{
+    margin-left: 2%;
+}
+#div-row1
+{
+    padding-bottom: 1.5%;
+}
+#btn-integration
+{
+    font-weight: bold;
+    color: white;
+    background-color: rgb(117, 114, 114);
+   border-radius: 20px;
+}
+#div-footer
+{
+    text-align: right;
+    background-color:rgb(3, 37, 41); 
+    color: white;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height:7%;
+    padding-top: 1%;
+    right:1%;
+    padding-right: 5%;
+}
+#img-msg
+{
+    width:50px;
+    height:50px;
+    position: fixed;
+    bottom: 5%;
+    margin-left: 93%;
+    cursor: pointer;
+}
+#div-help
+{
+    width:7%;
+    height:6%;
+    position: fixed;
+    bottom: 50%;
+    margin-left:96%;
+    background-color: darkslategrey;
+    color: white;
+    text-align:center;
+    cursor: pointer;
+    padding-top: 5px;
+	border-radius:2px;
+    
+    
+}
+#mdl-title
+{
+    text-align: center;
+}
+#modal-choose-integration
+{
+    margin-top: 6%;
+}
+.property
+{
+    width:110px;
+    height:110px;
+    padding-right: 3%;
+    margin-bottom: 20%; 
+   
+}
+#label
+{
+    text-align: right;
+    font-weight: bold;
+}
+#btn-cancel
+{
+    border: 0;
+}
+.property:hover
+{
+    cursor: pointer;
+    border: 1px solid steelblue;
+}
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 65px;
+    height: 20px;
+  }
+  .slider.round {
+    border-radius: 20px;
+  }
+  
+  .slider.round:before {
+    border-radius: 100%;
+  }
+  .switch input {display:none;}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 10px;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  left: 4px;
+  bottom: 1px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+
+}
+.on
+{
+  display: none;
+  text-align: left;
+  right:53%;
+}
+.off
+{
+    text-align: right;
+    left: 70%;
+}
+.on, .off
+{
+  color: white;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  top: 50%;
+ 
+  font-size: 8px;
+  font-family: Verdana, sans-serif;
+}
+
+input:checked+ .slider .on
+{display: block;}
+
+input:checked + .slider .off
+{display: none;}
+
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+#btn-send-test
+{
+    background-color: rgb(48, 47, 47);
+    color: white;
+    border-radius: 20px;
+	margin-bottom:3%;
+}
+#div-webhook
+{
+    margin-left: 10%;
+}
+#lbl-form
+{
+    color: rgb(184, 182, 182);
+}
+#div-bottom
+{
+    margin-left: 5%;
+}
+.verticaltext {
+    transform: rotate(-90deg);
+    transform-origin: right, top;
+    -ms-transform: rotate(-90deg);
+    -ms-transform-origin:right, top;
+    -webkit-transform: rotate(-90deg);
+    -webkit-transform-origin:right, top;
+    position: absolute; 
+    color: #ed217c;
+}
+.verticaltext {
+    transform: rotate(-90deg);
+    transform-origin: right, top;
+    -ms-transform: rotate(-90deg);
+    -ms-transform-origin:right, top;
+    -webkit-transform: rotate(-90deg);
+    -webkit-transform-origin:right, top;
+    position:relative; 
+    color:white;
+  
+}
+#text-box
+{
+    border-top: none;
+    border-left: none;
+    border-bottom: 1px solid rgb(184, 182, 182);
+    border-right:none;
+    box-shadow: none;
+    color:black;
+    
+
+}
+@media  screen and (max-width:650px)
+{
+    #div-help
+{
+    width:22%;
+    height:18%;
+    position: fixed;
+    bottom: 50%;
+    margin-left:89%;
+    background-color: darkslategrey;
+    color: white;
+    text-align:center;
+    cursor: pointer;
+    padding-top: 7px;
+    
+    
+}
+.verticaltext {
+    transform: rotate(-90deg);
+    transform-origin: right, top;
+    -ms-transform: rotate(-90deg);
+    -ms-transform-origin:right, top;
+    -webkit-transform: rotate(-90deg);
+    -webkit-transform-origin:right, top;
+    position:relative; 
+    color:white;
+    size: 1mm;
+  
+}
+}
+@media  screen and (max-width:1024px) and (min-width:550px)
+{
+    #div-help
+{
+    width:12%;
+    height:12%;
+    position: fixed;
+    bottom: 50%;
+    margin-left:96%;
+    background-color: darkslategrey;
+    color: white;
+    text-align:center;
+    cursor: pointer;
+    padding-top: 5px;
+    
+    
+}
+.verticaltext {
+    transform: rotate(-90deg);
+    transform-origin: right, top;
+    -ms-transform: rotate(-90deg);
+    -ms-transform-origin:right, top;
+    -webkit-transform: rotate(-90deg);
+    -webkit-transform-origin:right, top;
+    position:relative; 
+    color:white;
+    size: 1mm;
+  
+}
+}
+#spn-text
+{
+	padding-left:6%;
+}
+.container {
+    display: block;
+	position:relative;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 12px;
+	font-weight:0px;;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    
+}
+
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 13px;
+    width: 13px;
+    background-color: white;
+    border:1.5px solid gray;
+	border-radius:2px;
+	margin-left:4%;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+    background-color: #ccc;
+    
+    border:1px solid black;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+    background-color: #2196F3;
+    
+    border:1px solid black;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+    left: 4px;
+    top: -1px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.md-input {
+    position: relative;
+    margin-bottom: 30px;
+}
+    .md-input .md-form-control {
+        font-size: 16px;
+        padding: 10px 10px 10px 5px;
+        display: block;
+        border: none;
+        border-bottom: 2px solid #CACACA;
+        box-shadow: none;
+        width: 100%;
+    }
+
+    .md-input label {
+        color: rgba(0, 0, 0, 0.5);
+        font-size: 16px;
+        font-weight: normal;
+        position: absolute;
+        pointer-events: none;
+        left: 5px;
+        top: 10px;
+        transition: 0.2s ease all;
+        -moz-transition: 0.2s ease all;
+        -webkit-transition: 0.2s ease all;
+    }
+
+    .md-input .bar:before {
+        left: 50%;
+    }
+
+    .md-input .bar:after {
+        right: 50%;
+    }
+
+    .md-input .highlight {
+        position: absolute;
+        height: 60%;
+        width: 100px;
+        top: 25%;
+        left: 0;
+        pointer-events: none;
+        opacity: 0.5;
+    }
+    .md-input .md-form-control:focus ~ label, .md-input .md-form-control:valid ~ label {
+    top: -15px;
+    font-size: 14px;
+    color: #183D5D;
+}
+.md-input .bar:before, .md-input .bar:after { 
+    
+    content: '';
+    height: 2px;
+    width: 0;
+    bottom: 0px;
+    position: absolute;
+    background: #03A9F4;
+    transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    -webkit-transition: 0.2s ease all;
+}
+
+.md-input .md-form-control:focus ~ .bar:before, .md-input .md-form-control:focus ~ .bar:after {
+    width: 50%;
+}
+

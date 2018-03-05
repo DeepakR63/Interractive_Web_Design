@@ -1,0 +1,193 @@
+<html>
+    <head>
+        <title>Integration</title>
+  		<link rel="stylesheet" href="../css/style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="../js/modal.js"></script>
+  
+        
+    </head>
+   
+    <body>  
+      
+    <nav class="navbar navbar-inverse" id="nav-border">
+        <div class="container-fluid" id="nav-menu">
+          <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>                        
+                </button>
+            <a class="navbar-brand" href="#"><img class="img-rounded" src="../img/logo.png" id="img-logo"></a>
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li><a href="#">Home</a></li>
+            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Campaigns <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Campaigns1</a></li>
+                <li><a href="#">Campaigns2</a></li>
+                <li><a href="#">Campaigns3</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Reports</a></li>
+            <li><a href="#">Communication</a></li>
+            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Extras <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Extras1</a></li>
+                  <li><a href="#">Extras2</a></li>
+                  <li><a href="#">Extras3</a></li>
+                </ul>
+              </li>
+            <li><a href="#">Help</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right" id="mnu-foreverbrave">
+            <li><a href="#">ForeverBrave<span class="glyphicon glyphicon-cog" id="span-foreverbrave"></span></a></li>
+          </ul>
+        </div>
+        </div>
+      </nav> 
+      <div id="content" class="container">
+        <div id="content-integration">
+          <center>
+            <h1 id="hd-integration">
+              Integrations
+            </h1>
+            <h5>
+              Configuration of external integration.
+            </h5>
+            <h5>
+              We offer every limited support for external integrations. Please consult the <u>documentation</u> for help in building your implementation.
+            </h5>
+            
+          </center>
+        </div>
+        <br>
+        <hr>
+        <div id="content-add-integration">
+          <br>
+          <div class="row form-group" id="row-burtton">
+            <div class="col-sm-2">
+              </div>
+              <div class="col-sm-2">
+                </div>
+              <div class="col-sm-4">
+              <button class="btn form-control" data-toggle="modal" data-target="#modal-choose-integration" id="btn-add-integration">+ ADD INTEGRATION</button>
+            </div>
+          </div>
+          <br>
+          <hr>
+          <div class="row">
+            <div class="col-sm-3">
+              Active Public API Keys
+            </div>
+            <div class="col-sm-6">
+
+            </div>
+            <div class="col-sm-2">
+                <button class="btn form-control" id="btn-add-api">+ ADD API KEY</button>
+            </div>
+          </div>
+          <div class="row" id="div-tblhead">
+            <div class="col-sm-4">
+             <strong>Name</strong>
+            </div>
+            <div class="col-sm-6">
+                <strong>API Key</strong>
+            </div>
+            <div class="col-sm-2">
+
+            </div>
+          </div>
+          <div class="row" id="div-row1">
+              <div class="col-sm-4">
+              
+              </div>
+              <div class="col-sm-4">
+               12fsdasdh23ghgfhg23
+              </div>
+              <div class="col-sm-2">
+                 <span class="glyphicon glyphicon-pencil" id="spn-pencil"></span><span class="glyphicon glyphicon-trash"></span> 
+              </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                 
+                </div>
+                <div class="col-sm-4">
+                    12fsdasdh23ghgfhg23
+                </div>
+                <div class="col-sm-2">
+                     <span class="glyphicon glyphicon-pencil" id="spn-pencil"></span><span class="glyphicon glyphicon-trash"></span> 
+                </div>
+              </div>
+        </div>
+        <hr>
+        <div id="div-help1">
+          <strong>Help:</strong><a href="#"><u>API Documentation</u></a><br>
+          To request further help please <a href="#"><u>fill out this form</u></a>
+        </div>
+        <br>
+        <br>
+        <br>
+      </div>
+      <div id="div-footer" class="container-fluid">
+        <strong>@ Webconnex 2018</strong>
+      </div>
+
+      <div id="modal-choose-integration" class="modal fadelabel" role="dialog">
+        <div class="modal-dialog">
+      
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div >
+              <br>
+              <h3 class="modal-title" id="mdl-title">Choose Integration</h4>
+            </div>
+            <div class="modal-body">
+              <br>
+              <center>
+                <img id="img-i1" src="../img/i1.png" class="property"/>
+                <img id="img-i2" src="../img/i2.png" class="property"/>
+              </center>
+              <div id="mdl-webhook">
+                <br>
+                <center><strong id="lbl-webhook"> Configure Webhook </strong><strong id="lbl-kindfull"> Configure KindFull </strong></center>
+                <br>
+                <div class="row form-group">
+                  <div class="col-sm-4" id="label">
+                    Webhook Name
+                  </div>
+                  <div class="col-sm-6">
+                      <input type="text" class="form-control" placeholder="Name"/>
+                    </div>
+                </div>
+                <div class="row form-group">
+                    <div class="col-sm-4" id="label">
+                      Webhook Endpoint URL
+                    </div>
+                    <div class="col-sm-6">
+                        <input type="text" class="form-control" placeholder="Endpoint URL"/>
+                      </div>
+                  </div>
+              </div>
+            </div>
+            <div>
+               <center> <button type="button" class="btn btn-default" id="btn-integration" onclick="window.location.href='webhooksettings.html'">Add Integration</button><button type="button" class="btn btn-default" data-dismiss="modal" id="btn-cancel">Cancel</button></center>
+               <br>
+               <br>
+            </div>
+          </div>
+      
+        </div>
+      </div>
+
+      <img id="img-msg" src="../img/msg.jpeg"/>
+      <div id="div-help" class="verticaltext">
+          Get Help
+    </div>
+    </body>
+</html>
